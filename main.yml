@@ -4,5 +4,5 @@
    gather_facts: true
    become: true
    roles:
-    - role: linux-install-jdk1
-    - role: linux-install-httpd1
+    - role: krishkakumani/linux-install-jdk1
+    - role: krishkakumani/linux-install-httpd1
