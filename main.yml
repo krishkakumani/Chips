@@ -4,13 +4,5 @@
    gather_facts: true
    become: true
    roles:
-# install jdk 
- - name: install jdk1
-   role: linux-install-jdk1
-   tags:
-     - jdk1
-# install httpd1
- - name: install httpd services
-   role: linux-install-httpd1
-   tags:
-      - httpd1
+    - role: linux-install-jdk1
+    - role: linux-install-httpd1
